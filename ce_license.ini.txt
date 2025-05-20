@@ -1,0 +1,19 @@
+[server]
+# license server host
+name = service.mindopt.tech
+
+# license server port 80 if absent
+port = 443
+
+# license server is https protocol
+https = true
+
+# client side request timeout in second
+request_timeout  =   2
+
+[security]
+
+user = www983445123@sina.com
+
+# secret can be refreshed via website
+secret = 7EiYuWWz7bYAfIhzq3lepwlRZRXuhJ5w
