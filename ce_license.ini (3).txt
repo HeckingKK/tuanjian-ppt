@@ -1,0 +1,20 @@
+  [security]
+
+    # key for client authentication
+    aliyun_ak_id = 下载后在文件中修改
+    aliyun_ak_secret = 下载后在文件中修改
+
+
+    [server]
+
+    # license server host
+    name = opt.cn-beijing.aliyuncs.com
+
+    # license server port 80 if absent
+    port = 443 
+
+    # license server is https protocol
+    https = true
+
+    # client side request timeout in second
+    request_timeout  =  2
